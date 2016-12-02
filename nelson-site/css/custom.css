@@ -1,0 +1,84 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+
+/* Fonts*/
+@font-face {
+	font-family: Roboto;
+	src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+	font-family: RobotoBold;
+	src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+@font-face {
+	font-family: cabinSemi;
+	src: url(../fonts/cabin/cabin-SemiBold.otf);
+}
+
+@font-face {
+	font-family: RobotoSlab;
+	src: url(../fonts/Roboto_Slab/RobotoSlab-Regular.ttf);
+}
+
+
+/*  'Nelson Li' Header*/
+#homepage {
+	font-family: cabinSemi;
+	font-size:24px;
+	color: white;
+}
+
+/* menu */
+ul.nav {
+	font-family: Roboto;
+	font-size:16px;
+}
+
+/*   Text in background*/
+.jumbotron {
+	padding: 400px;
+	text-align: center;
+	background-image: url('../images/sf.jpg');
+	color: white;
+	font-family: Roboto, serif;
+}
+
+/* Heading size*/
+.jumbotron h1 {
+	font-size: 100px;
+}
+
+/*  About and Porfolio heading*/
+.category h1{
+	text-align: center;
+	font-size: 36px;
+	font-family: RobotoBold;
+	padding-top:50px;
+}
+
+/* Resume Heading */
+#resume{
+	padding-top:50px;
+	text-align: center;
+	font-size: 36px;
+	font-family:RobotoBold;
+}
+
+/* Descriptions*/
+.category p {
+	font-family: RobotoSlab;
+	font-size: 20px;
+	text-align: left;
+	line-height: 35px;
+}
+
+/* icon alighment*/
+#contact{
+	text-align: center;
+}
+
+
+#contact a:hover, #resume :hover{
+	text-decoration: none;
+}
+
